@@ -24,7 +24,7 @@ module.exports = [{
     $setuservar[para;$sum[$getuservar[para;$slashoption[kullanıcı]];$slashoption[miktar]];$slashoption[kullanıcı]]
     $setuservar[para;$sub[$getuservar[para];$slashoption[miktar]]]
 
-    $onlyif[$slashoption[miktar]<0;$nonescape[$getvar[cross]] <@$authorid>, Yazacağın sayı 0'dan yüksek olmalı.{options:{ephemeral:true}}{extraOptions:{interaction:true}}]
+    $onlyif[$slashoption[miktar]>0;$nonescape[$getvar[cross]] <@$authorid>, Yazacağın sayı 0'dan yüksek olmalı.{options:{ephemeral:true}}{extraOptions:{interaction:true}}]
     $onlyif[$slashoption[miktar]<=$getuservar[para];$nonescape[$getvar[cross]] <@$authorid>, Yeterli miktarda paran bulunmamaktadır.{options:{ephemeral:true}}{extraOptions:{interaction:true}}]
     $onlyif[$interactiondata[options._subcommand]==gönder;]
 `}]
