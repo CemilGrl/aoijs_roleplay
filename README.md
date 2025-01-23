@@ -21,4 +21,4 @@ veya
 ```js
 node arsen.js
 ```
-komutu ile botu başlatabilirsiniz. Herhangi sorun içinde issues kısmında issue açabilir yada discord @cemilgrl hesabı ile ile bana ulaşabilirsiniz 💖
+komutu ile botu başlatabilirsiniz. Herhangi sorun içinde issues kısmında issue açabilir yada discord @cemilgrl hesabı ile ile bana ulaşabilirsiniz 🤍
